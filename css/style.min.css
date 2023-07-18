@@ -3011,6 +3011,8 @@ input {
 .story-parent-slider .swiper-slide,
 .story-child-slider .swiper-slide {
   -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .story {
