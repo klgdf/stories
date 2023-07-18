@@ -3008,6 +3008,11 @@ input {
   }
 }
 
+.story-parent-slider .swiper-slide,
+.story-child-slider .swiper-slide {
+  -webkit-touch-callout: none;
+}
+
 .story {
   display: flex;
   flex-direction: column;
