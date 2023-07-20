@@ -3036,14 +3036,14 @@ input {
     height: 48px;
   }
 }
-.story__img {
-  margin: 0 auto 5px;
-  margin-bottom: 11px;
-}
-.story__img > div {
+.story__overlay {
   position: relative;
   overflow: hidden;
   object-fit: cover;
+}
+.story__img {
+  margin: 0 auto 5px;
+  margin-bottom: 11px;
 }
 .story__img:hover::after {
   top: -6px;
