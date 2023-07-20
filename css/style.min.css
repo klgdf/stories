@@ -3423,6 +3423,10 @@ input {
     transform: scale(1);
   }
 }
+.story-parent-slider__item:not(.swiper-slide-active) .swiper-pagination {
+  opacity: 0;
+  transition: 0.333s;
+}
 
 .story-child-slider .swiper-button-prev, .story-child-slider .swiper-button-next, .story-parent-slider__next, .story-parent-slider__prev {
   margin-top: 0 !important;
